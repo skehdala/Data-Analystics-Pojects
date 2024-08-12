@@ -1,9 +1,18 @@
 # SQL COMPLETE PROJECT
-- [Project Overview](Project-Overview)
-- [MySQL Forward Engineering](MySQL-Forward-Engineering)
-- [Creating schema called helpdesk](creating-schema-called-helpdesk)
+- SQL PROJECT PHASE 1
+- [Project overview](#project-overview)
+- [Mysql forward engineering](#mysql-forward-engineering)
+- [Creating schema called helpdesk](#creating-schema-called-helpdesk)
+- [Creating the first table employee]( #creating-the-first-table-employee)
+- [Creating the second table tickets]( #creating-the-second-table-tickets)
+- [Restoring settings for mysql mode]( #restoring-settings-for-mysql-mode)
+- SQL PROJECT PHASE 2
+- [Insert values into the tables]( #Insert-values-into-the-tables)
+- SQL PROJECT PHASE 3
+- [Questions and answers]( #questions-and-answers)
+
   
-# SQL PROJECT PHASE 1
+# SQL PROJECT - PHASE 1
 ## PROJECT OVERVIEW
 In this project, I will guide you step by step on how I created tables using MySQL from zero then join the tables and query the two tables.
 After deep research, i created SQL code in 3 phases that will guide you follow along with my project.
@@ -72,8 +81,8 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 ```
 Congrats you just created two new table using SQL
 
-# SQL PROJECT PHASE 2
-## Now we inserts values into the table that were created in PROJECT1
+# SQL PROJECT - PHASE 2
+## Insert values into the tables
 We start with employee table
 ```SQL
 INSERT INTO `helpdesk`.`employee` (`FirstName`, `LastName`, `Location`) VALUES 
@@ -130,7 +139,8 @@ select * from tickets;
 ```
 Congrats, now we have two databases created
 
-# QUESTIONS AND ANSWERS PHASE 3
+# SQL PROJECT PHASE 3
+## QUESTIONS AND ANSWERS
 
 1. Print the first name, last name, ticket ID, ticket description, and duration of the employees who are assigned with a ticket(s). Sort them first alphabetically by first name (starting with letter A at the top) and then ascending by Duration.
 ```SQL
