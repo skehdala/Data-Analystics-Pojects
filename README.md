@@ -1,17 +1,21 @@
+- CONTACTS
+- Linkedin: https://www.linkedin.com/in/sema-kehdala-556882228/
+- Emails: kehdalasema@yahoo.com
+- Tel: +1 5712989643
+---
 # SQL COMPLETE PROJECT
-- SQL PROJECT PHASE 1
+- ***SQL PROJECT PHASE 1***
 - [Project overview](#project-overview)
 - [Mysql forward engineering](#mysql-forward-engineering)
 - [Creating schema called helpdesk](#creating-schema-called-helpdesk)
-- [Creating the first table employee]( #creating-the-first-table-employee)
-- [Creating the second table tickets]( #creating-the-second-table-tickets)
-- [Restoring settings for mysql mode]( #restoring-settings-for-mysql-mode)
-- SQL PROJECT PHASE 2
+- [Creating the first table employee]( #creating-the-first-table-employee)                   
+- [Creating the second table tickets]( #creating-the-second-table-tickets)                   
+- [Restoring settings for mysql mode]( #restoring-settings-for-mysql-mode)                   
+- ***SQL PROJECT PHASE 2***
 - [Insert values into the tables]( #Insert-values-into-the-tables)
-- SQL PROJECT PHASE 3
+- ***SQL PROJECT PHASE 3***
 - [Questions and answers]( #questions-and-answers)
-
-  
+---
 # SQL PROJECT - PHASE 1
 ## PROJECT OVERVIEW
 In this project, I will guide you step by step on how I created tables using MySQL from zero then join the tables and query the two tables.
@@ -26,6 +30,7 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION';
 ```
+---
 ### CREATING SCHEMA CALLED HELPDESK
 Drop any schema having the same name
 ```SQL
@@ -36,6 +41,7 @@ Create a new schema called helpdesk and used it
 CREATE SCHEMA IF NOT EXISTS `helpdesk` DEFAULT CHARACTER SET utf8 ;
 USE `helpdesk` ;
 ```
+---
 ### CREATING THE FIRST TABLE EMPLOYEE
 Drop any existing table with the name employee and create a new one
 ```SQL
@@ -80,7 +86,7 @@ SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 ```
 Congrats you just created two new table using SQL
-
+---
 # SQL PROJECT - PHASE 2
 ## Insert values into the tables
 We start with employee table
@@ -138,7 +144,7 @@ We can read the tale
 select * from tickets;
 ```
 Congrats, now we have two databases created
-
+---
 # SQL PROJECT PHASE 3
 ## QUESTIONS AND ANSWERS
 
