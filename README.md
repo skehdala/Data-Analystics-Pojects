@@ -1,8 +1,13 @@
+# SQL COMPLETE PROJECT
+- [Project Overview](Project-Overview)
+- [MySQL Forward Engineering](MySQL-Forward-Engineering)
+- [Creating schema called helpdesk](creating-schema-called-helpdesk)
+  
 # SQL PROJECT PHASE 1
-## CREATING TWO TABLES FROM SCRATCH (EMPLOYEE & TICKETS)
-In this project, I will guide you step by step on how I created this project using MySQL from zero.
-I spent a lot of time researching to create the two SQL code files that will help you follow along with my project.
-Make sure the you have DBMS up and running.
+## PROJECT OVERVIEW
+In this project, I will guide you step by step on how I created tables using MySQL from zero then join the tables and query the two tables.
+After deep research, i created SQL code in 3 phases that will guide you follow along with my project.
+Make sure the you have MySQL up and running.
 ## THE FIRST SQL FILE CREATION
 I name this file as Helpdesk_setup
 ### MySQL Forward Engineering
